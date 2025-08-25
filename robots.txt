@@ -1,0 +1,13 @@
+User-agent: *
+# Allow everything by default
+Disallow:
+
+# Block private folders
+Disallow: /drafts/
+Disallow: /private/
+
+# Block thank-you page
+Disallow: /thank-you.html
+
+# Optional: Point to sitemap if you have one
+Sitemap: https://yourusername.github.io/sitemap.xml
